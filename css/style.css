@@ -1,1 +1,13 @@
-@import url(https://unpkg.com/tachyons@4.12.0/css/tachyons.min.css);
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+/* 
+<weight>: Use a value from 100 to 900
+<uniquifier>: Use a unique and descriptive class name
+*/
+.noto-sans {
+  font-family: "Noto Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
